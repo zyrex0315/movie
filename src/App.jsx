@@ -9,7 +9,7 @@ import './index.css';
 
 export function App() {
   return (
-    <Router>
+    <Router basename="/movie">
       <MoviesProvider>
         <div className="min-h-screen bg-gray-900 text-white">
           <Navbar />
