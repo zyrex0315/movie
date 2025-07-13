@@ -33,8 +33,8 @@ const Navbar = () => {
                 location.pathname === '/favorites' ? 'bg-gray-800' : ''
               }`}
             >
-              {/* <Heart size={18} />
-              <span>Favorites</span> */}
+              <Heart size={18} />
+              <span>Favorites</span>
             </Link>
           </div>
         </div>
