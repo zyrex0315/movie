@@ -68,16 +68,16 @@ export const getMovieDetails = async (imdbID) => {
 
 // list of trending IMDb IDs
 const TRENDING_IMDB_IDS = [
-  'tt0111161', // The Shawshank Redemption
-  'tt0068646', // The Godfather
-  'tt0468569', // The Dark Knight
-  'tt1375666', // Inception
-  'tt0137523', // Fight Club
-  'tt0109830', // Forrest Gump
-  'tt0120737', // The Lord of the Rings: The Fellowship of the Ring
-  'tt0133093', // The Matrix
-  'tt0167260', // The Lord of the Rings: The Return of the King
-  'tt0080684', // Star Wars: Episode V - The Empire Strikes Back
+  'tt15398776', // Oppenheimer
+  'tt6710474', // Everything Everywhere All at Once
+  'tt10648342', // Top Gun: Maverick
+  'tt9419884', // Doctor Strange in the Multiverse of Madness
+  'tt10872600', // Spider-Man: No Way Home
+  'tt10298810', // Lightyear
+  'tt10838180', // The Matrix Resurrections
+  'tt9032400', // Eternals
+  'tt1160419', // Dune
+  'tt10872600', // Spider-Man: No Way Home
 ];
 
 export const getTrendingMovies = async () => {
